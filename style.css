@@ -17,8 +17,8 @@ h1 {
 
 .author {
     font-size: 15px;
-    margin-top: 0px;
     padding-top: 5px;
+    margin-top: 0px;
 }
 
 .link {
@@ -27,4 +27,12 @@ h1 {
 
 .link:hover {
     color: blue;
+}
+
+.recipe-card {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: solid;
+    border-color: darkblue;
+    border-width: 3px;
 }
