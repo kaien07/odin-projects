@@ -29,10 +29,17 @@ h1 {
     color: blue;
 }
 
+.link.recipe {
+    display: block;
+}
+
 .recipe-card {
+    width: 300px;
     margin-top: 16px;
     margin-bottom: 16px;
     border: solid;
     border-color: darkblue;
     border-width: 3px;
+    background-color: lightblue;
+    display: flexbox;
 }
