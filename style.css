@@ -25,7 +25,8 @@ h1 {
     color: darkblue;
 }
 
-.link:hover {
+.link:hover,
+.link:hover .card-details {
     color: rgb(57, 140, 255);
 }
 
