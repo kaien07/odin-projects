@@ -26,23 +26,25 @@ h1 {
 }
 
 .link:hover {
-    color: blue;
+    color: rgb(57, 140, 255);
 }
 
-.recipe.link {
-    display: block;
+.card {
+    display: inline-block;
     padding: 16px;
+    margin: 8px;
+    margin-left: 0px;
+    border-radius: 10px;
     background-color: lightblue;
-    text-align: center;
 }
 
-.recipe-card {
-    width: 300px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    border: solid;
-    border-radius: 15px;
-    border-color: darkblue;
-    border-width: 3px;
-    padding: 16px;
+.card-details {
+    font-size: 20px;
+    color: darkblue;
+    padding: 4px;
+    padding-left: 0px;
+}
+
+img {
+    object-fit: cover;
 }
