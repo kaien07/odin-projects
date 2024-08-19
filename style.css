@@ -27,13 +27,17 @@ h1 {
 
 .link:hover,
 .link:hover .card-details {
-    color: rgb(57, 140, 255);
+    color: rgb(24, 120, 255);
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.5); 
 }
 
 .card {
     display: inline-block;
     padding: 16px;
-    margin: 8px;
+    margin: 10px;
     margin-left: 0px;
     border-radius: 10px;
     background-color: lightblue;
