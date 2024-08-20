@@ -3,22 +3,13 @@ body {
     color: rgb(0, 0, 0);
 }
 
-h1, 
-.author {
+.heading {
+    border-radius: 10px;
+    padding: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     color: white;
     background-color: rgb(9, 9, 51);
-    padding: 16px;
-}
-
-h1 {
-    font-size: 35px;
-    margin-bottom: 0px;
-}
-
-.author {
-    font-size: 15px;
-    padding-top: 5px;
-    margin-top: 0px;
 }
 
 .link {
